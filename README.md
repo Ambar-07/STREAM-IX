@@ -4,7 +4,7 @@
 
 # STREAMIX
 
-**A High-Performance Plex Media Server UI & Home Theater Dashboard**
+**A High-Performance Media Server UI & Home Theater Dashboard**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
