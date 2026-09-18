@@ -230,7 +230,7 @@ STREAM-IX/
 
 ### Prerequisites
 - Node.js (v18.18.0 or higher)
-- npm or pnpm
+- npm 
 
 ---
 
