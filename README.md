@@ -37,6 +37,8 @@
 - **Decoupled Architecture**: Can operate as an autonomous, zero-config serverless web app on Vercel, or be deployed alongside its Express 5 REST service and WebRTC Socket.io signaling server.
 
 ### Recent Updates & Fixes
+- **Cross-Device Avatar Synchronization**: Added background network fetch synchronization on app load to ensure mobile devices automatically retrieve and reflect avatar updates made on desktop, resolving a stale cache issue in PWA deployments.
+- **Mobile Navigation Refinement**: Restored the visual user profile avatar display within the mobile bottom navigation dock, replacing the generic settings icon to match the desktop layout's personalization.
 - **DiceBear Avatar Integration**: Replaced legacy emoji avatars with the dynamic DiceBear (Micah) vector avatar system.
 - **Settings Page Refactor**: Consolidated the user profile and app settings into a unified, responsive tabbed dashboard.
 - **Avatar Rendering Fix**: Corrected a bug where invalid or unparsed avatar strings (e.g., `dicebear:micah:Felix`) would render as raw text in the Navbar by improving fallback logic and unifying the `<UserAvatar />` component across all page headers (including the Dashboard).
