@@ -138,6 +138,22 @@ Custom authentication portal with PBKDF2 cryptographic hashing, live password st
 
 ---
 
+
+### Cross-Device Continue Watching Sync
+- **Backend Progress Tracking**: Seamlessly tracks exact timestamps and episodes for both Movies and Series.
+- **Dynamic Progress Bars**: Visually represents remaining playback percentage directly on dashboard media cards.
+- **Hybrid State**: Merges local offline storage with backend state to prevent data loss across device switches.
+
+### Dynamic SEO & Open Graph Social Cards
+- **Server-Side Generation (SSR)**: Dynamically injects metadata payloads for each unique Movie, Series, or Room ID.
+- **Rich Social Previews**: Pasting links into Discord, Twitter, or WhatsApp instantly renders high-quality backdrops, titles, and descriptions.
+
+### Advanced Anime Discover Hub
+- **Precision Filtering**: Bypasses basic genre tags by explicitly targeting original Japanese (ja) audio identifiers and animation categories for pixel-perfect Anime exploration.
+
+### Manual Load More Interface
+- **Clean Pagination**: Replaced aggressive infinite scroll with a manual Load More button for improved dashboard performance and precise content consumption.
+
 ## System Architecture
 
 ```mermaid
@@ -377,4 +393,6 @@ All routes are implemented in both the Next.js serverless handlers (`frontend/ap
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
 
