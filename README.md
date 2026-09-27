@@ -36,6 +36,13 @@
 - **Offline Catalog Resilience**: Includes a built-in static catalog and caching layer, enabling complete offline browsing without requiring an active external API connection.
 - **Decoupled Architecture**: Can operate as an autonomous, zero-config serverless web app on Vercel, or be deployed alongside its Express 5 REST service and WebRTC Socket.io signaling server.
 
+### Recent Updates & Fixes
+- **DiceBear Avatar Integration**: Replaced legacy emoji avatars with the dynamic DiceBear (Micah) vector avatar system.
+- **Settings Page Refactor**: Consolidated the user profile and app settings into a unified, responsive tabbed dashboard.
+- **Avatar Rendering Fix**: Corrected a bug where invalid or unparsed avatar strings (e.g., `dicebear:micah:Felix`) would render as raw text in the Navbar by improving fallback logic and unifying the `<UserAvatar />` component across all page headers (including the Dashboard).
+- **Persistent Local State**: Resolved avatar syncing issues by configuring optimistic UI updates and instant `localStorage` fallbacks, ensuring changes reflect immediately without requiring a manual page refresh.
+- **Layout Tweaks**: Fixed sticky sidebar overlapping issues on the Settings page to prevent navigation tabs from cutting into other content on scroll.
+
 ---
 
 ## Visual Showcase
