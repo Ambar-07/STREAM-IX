@@ -79,6 +79,25 @@ Custom authentication portal with PBKDF2 cryptographic hashing, live password st
 
 ---
 
+## Recent Implementations & Fixes
+
+### Database Integration & Persistent Storage
+- **Neon PostgreSQL Database**: Replaced the local JSON file system with a robust, cloud-hosted Neon PostgreSQL database.
+- **Prisma ORM**: Implemented Prisma as the data access layer, allowing secure and strongly-typed queries across all serverless API endpoints.
+- **User Migration Script**: Executed automated data transfer of all existing legacy users from local JSON into the new persistent PostgreSQL environment seamlessly.
+
+### Push Notifications & Email Broadcasting
+- **Web Push API**: Added Service Workers and VAPID keys to support native browser push notifications across devices.
+- **Push Notification Database Models**: Created database tables for push notification subscriptions, tying device endpoints directly to user accounts.
+- **Watch Party Broadcasting**: Added a direct "Invite All Friends via Push" action that blasts an instant Web Push notification and an HTML-formatted SMTP Email invite to all registered users simultaneously.
+
+### UI & Streaming Enhancements
+- **Streaming Provider Expansion**: Integrated multiple resilient streaming providers including VidLink, SuperEmbed, and MultiEmbed.
+- **Dashboard Refinements**: Added a prominent Discovery hub button, reorganized mobile dropdown menus, and stabilized responsive overflow issues on the video player container.
+- **Build & CI/CD Stability**: Configured proper Prisma post-installation scripts for Vercel deployment caching and corrected API fetch URL backticks.
+
+---
+
 ## Core Capabilities
 
 ### Real-Time WebRTC Watch Parties
@@ -358,3 +377,4 @@ All routes are implemented in both the Next.js serverless handlers (`frontend/ap
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
