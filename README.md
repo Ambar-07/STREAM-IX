@@ -51,51 +51,24 @@
 
 ## Visual Showcase
 
-### 1. Catalog Dashboard & Continuous Playback Tracking
-Dynamic spotlight hero banner with instant trailer previews, a persistent "Last Watched" shelf for resuming movies and TV series, and curated trending galleries.
-
-![Dashboard Hero](./assets/screenshots/dashboard_hero.png)
-
-![Last Watched Playback Tracking](./assets/screenshots/last_watched.png)
-
-![Popular Blockbusters Carousel](./assets/screenshots/dashboard_blockbusters.png)
-
----
-
-### 2. Media Intelligence & Deep Cast Insights
-Comprehensive title overviews with high-contrast badges, streaming server selection drawer, trailer modals, complete cast rosters, and intelligent recommendation matrices.
-
-![Movie Detail Overview](./assets/screenshots/movie_details.png)
-
-![Cast and Recommendations](./assets/screenshots/cast_and_recommendations.png)
-
----
-
-### 3. Cinematic Multi-Server Video Player
-High-definition responsive player deck with automated ad-suppression parameters, mobile safe-area insets, continuous playback tracking, and interactive cinema overlay controls.
-
-![Video Player](./assets/screenshots/video_player.png)
-
-![Player Cinema Overlay](./assets/screenshots/player_controls.png)
-
----
-
-### 4. Neo-Brutalist Security & Authentication
-Custom authentication portal with PBKDF2 cryptographic hashing, live password strength validation, and 6-digit Gmail OTP email verification.
+Explore the Neo-Brutalist and Cinematic interfaces of STREAMIX across desktop and mobile devices.
 
 <div align="center">
-  <img src="./assets/screenshots/login.png" width="48%" alt="Login Portal" />
-  <img src="./assets/screenshots/signup.png" width="48%" alt="Sign Up Portal" />
-</div>
-
----
-
-### 5. Mobile-First Responsive Design
-Engineered with mobile viewports in mind, featuring an Apple Music-style floating bottom navigation bar, native haptic feedback, and an intelligent responsive grid that reduces text density to prioritize poster art on small screens.
-
-<div align="center">
-  <img src="./assets/screenshots/mobile_ui.png" width="30%" alt="Mobile Dashboard" />
-  <img src="./assets/screenshots/mobile_player.png" width="30%" alt="Mobile Player" />
+  <img src="./assets/screenshots/screen1.png" width="48%" alt="Screenshot 1" style="margin-bottom: 10px;" />
+  <img src="./assets/screenshots/screen2.png" width="48%" alt="Screenshot 2" style="margin-bottom: 10px;" />
+  
+  <img src="./assets/screenshots/screen3.png" width="48%" alt="Screenshot 3" style="margin-bottom: 10px;" />
+  <img src="./assets/screenshots/screen4.png" width="48%" alt="Screenshot 4" style="margin-bottom: 10px;" />
+  
+  <img src="./assets/screenshots/screen5.png" width="48%" alt="Screenshot 5" style="margin-bottom: 10px;" />
+  <img src="./assets/screenshots/screen6.png" width="48%" alt="Screenshot 6" style="margin-bottom: 10px;" />
+  
+  <img src="./assets/screenshots/screen7.png" width="48%" alt="Screenshot 7" style="margin-bottom: 10px;" />
+  
+  <br/><br/>
+  <h3>Mobile Experience</h3>
+  <img src="./assets/screenshots/screen8.png" width="30%" alt="Mobile UI 1" />
+  <img src="./assets/screenshots/screen9.png" width="30%" alt="Mobile UI 2" />
 </div>
 
 ---
