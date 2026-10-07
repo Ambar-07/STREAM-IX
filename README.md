@@ -145,7 +145,8 @@ Engineered with mobile viewports in mind, featuring an Apple Music-style floatin
 - **Rich Previews**: Real-time result previews featuring poster art, release year, rating badges, and direct navigation.
 - **Recent Search History**: Persisted locally with one-tap query clearing.
 
-### Cryptographic Security & OTP Verification
+### Cryptographic Security, OTP Verification & Google OAuth
+- **Seamless Google OAuth**: Integrated secure social login using Google authentication for 1-click frictionless sign-up and login.
 - **PBKDF2 Password Hashing**: 100,000 iterations of SHA-512 with unique 16-byte random salts.
 - **Constant-Time Verification**: Uses timing-safe comparisons to eliminate side-channel timing attacks.
 - **Email Verification**: Dispatches 6-digit verification OTP codes via Gmail SMTP with a 10-minute expiry window.
