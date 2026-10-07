@@ -37,11 +37,13 @@
 - **Decoupled Architecture**: Can operate as an autonomous, zero-config serverless web app on Vercel, or be deployed alongside its Express 5 REST service and WebRTC Socket.io signaling server.
 
 ### Recent Updates & Fixes
+- **Apple Music-Style Floating Bottom Bar**: Redesigned the mobile navigation dock into a sleek, floating pill with saturated glassmorphism, fluid spring animations, and native haptic feedback (`navigator.vibrate`) for a premium tactile experience.
+- **Watchlist Race Condition Resolution**: Completely eliminated stale watchlist data bugs across device transitions. Implemented strict mutation tracking and aggressive Service Worker cache bypassing to guarantee that delayed server fetches never overwrite optimistic local state.
+- **Responsive Mobile Typography Cleanups**: Significantly reduced text density on mobile viewports. Implemented intelligent CSS truncation to hide verbose synopses on small screens (within grids and search results), giving priority to posters and essential metadata.
+- **Global Iconography Upgrade**: Fully migrated all legacy emoji icons across the dashboard, settings, and media rails to a crisp, unified vector icon system.
 - **Cross-Device Avatar Synchronization**: Added background network fetch synchronization on app load to ensure mobile devices automatically retrieve and reflect avatar updates made on desktop, resolving a stale cache issue in PWA deployments.
-- **Mobile Navigation Refinement**: Restored the visual user profile avatar display within the mobile bottom navigation dock, replacing the generic settings icon to match the desktop layout's personalization.
-- **DiceBear Avatar Integration**: Replaced legacy emoji avatars with the dynamic DiceBear (Micah) vector avatar system.
+- **DiceBear Avatar Integration**: Replaced legacy emoji avatars with the dynamic DiceBear vector avatar system.
 - **Settings Page Refactor**: Consolidated the user profile and app settings into a unified, responsive tabbed dashboard.
-- **Avatar Rendering Fix**: Corrected a bug where invalid or unparsed avatar strings (e.g., `dicebear:micah:Felix`) would render as raw text in the Navbar by improving fallback logic and unifying the `<UserAvatar />` component across all page headers (including the Dashboard).
 - **Persistent Local State**: Resolved avatar syncing issues by configuring optimistic UI updates and instant `localStorage` fallbacks, ensuring changes reflect immediately without requiring a manual page refresh.
 - **Layout Tweaks**: Fixed sticky sidebar overlapping issues on the Settings page to prevent navigation tabs from cutting into other content on scroll.
 
