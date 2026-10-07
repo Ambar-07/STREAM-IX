@@ -51,24 +51,43 @@
 
 ## Visual Showcase
 
-Explore the Neo-Brutalist and Cinematic interfaces of STREAMIX across desktop and mobile devices.
+### 1. Neo-Brutalist Dashboard & Catalog
+The default high-contrast, bold design language featuring instant trailer previews and continuous playback tracking.
+
+![Dashboard Neo-Brutalist](./assets/screenshots/screen2.png)
+
+### 2. Immersive Cinematic Mode
+A seamless, edge-to-edge cinematic aesthetic tailored for darkened rooms and immersive home theater environments.
+
+![Dashboard Cinematic](./assets/screenshots/screen5.png)
+
+### 3. Media Intelligence & Deep Cast Insights
+Comprehensive title overviews with high-contrast badges, complete cast rosters, and intelligent recommendation matrices. Available in both design modes.
 
 <div align="center">
-  <img src="./assets/screenshots/screen1.png" width="48%" alt="Screenshot 1" style="margin-bottom: 10px;" />
-  <img src="./assets/screenshots/screen2.png" width="48%" alt="Screenshot 2" style="margin-bottom: 10px;" />
-  
-  <img src="./assets/screenshots/screen3.png" width="48%" alt="Screenshot 3" style="margin-bottom: 10px;" />
-  <img src="./assets/screenshots/screen4.png" width="48%" alt="Screenshot 4" style="margin-bottom: 10px;" />
-  
-  <img src="./assets/screenshots/screen5.png" width="48%" alt="Screenshot 5" style="margin-bottom: 10px;" />
-  <img src="./assets/screenshots/screen6.png" width="48%" alt="Screenshot 6" style="margin-bottom: 10px;" />
-  
-  <img src="./assets/screenshots/screen7.png" width="48%" alt="Screenshot 7" style="margin-bottom: 10px;" />
-  
-  <br/><br/>
-  <h3>Mobile Experience</h3>
-  <img src="./assets/screenshots/screen8.png" width="30%" alt="Mobile UI 1" />
-  <img src="./assets/screenshots/screen9.png" width="30%" alt="Mobile UI 2" />
+  <img src="./assets/screenshots/screen3.png" width="48%" alt="Neo-Brutalist Details" />
+  <img src="./assets/screenshots/screen6.png" width="48%" alt="Cinematic Details" />
+</div>
+
+### 4. Multi-Server Video Player
+High-definition responsive player deck with continuous playback tracking and interactive cinema overlay controls.
+
+<div align="center">
+  <img src="./assets/screenshots/screen4.png" width="48%" alt="Neo-Brutalist Player" />
+  <img src="./assets/screenshots/screen7.png" width="48%" alt="Cinematic Player" />
+</div>
+
+### 5. Secure Authentication & Google OAuth
+Custom authentication portal with PBKDF2 cryptographic hashing, live password strength validation, and 1-click Google OAuth login.
+
+![Login Portal](./assets/screenshots/screen1.png)
+
+### 6. Mobile-First Responsive Design
+Engineered with mobile viewports in mind, featuring an Apple Music-style floating bottom navigation bar and native haptic feedback.
+
+<div align="center">
+  <img src="./assets/screenshots/screen9.png" width="30%" alt="Mobile Neo-Brutalist" />
+  <img src="./assets/screenshots/screen8.png" width="30%" alt="Mobile Cinematic" />
 </div>
 
 ---
