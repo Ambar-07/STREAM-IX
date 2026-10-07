@@ -353,19 +353,13 @@ The Express API starts on port `5000` (health check: `http://localhost:5000/api/
 | `GMAIL_USER` | Optional | `--` | Gmail address for sending real 6-digit OTP verification codes. |
 | `GMAIL_APP_PASSWORD` | Optional | `--` | 16-character Google App Password for SMTP dispatch. |
 
-### Backend (`backend/.env`)
-| Variable | Required | Default | Description |
-|---|:---:|---|---|
-| `PORT` | Optional | `5000` | Port for Express API server. |
-| `JWT_SECRET` | Required | `--` | Secret key for signing and validating JWT session tokens. |
-| `TMDB_API_KEY` | Optional | `--` | Free TMDB API v3 key for backend metadata lookups. |
-| `MONGO_URI` | Optional | Localhost | MongoDB connection string (falls back to in-memory store if unreachable). |
+
 
 ---
 
 ## API Reference
 
-All routes are implemented in both the Next.js serverless handlers (`frontend/app/api/...`) and Express REST API (`backend/src/...`).
+All routes are implemented securely as Next.js serverless handlers (`frontend/app/api/...`) and backed by Neon PostgreSQL.
 
 ### Authentication
 - `POST /api/auth/send-verification` — Validates email & dispatches 6-digit OTP code.
