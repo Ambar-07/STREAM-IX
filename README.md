@@ -90,6 +90,16 @@ Custom authentication portal with PBKDF2 cryptographic hashing, live password st
 
 ---
 
+### 5. Mobile-First Responsive Design
+Engineered with mobile viewports in mind, featuring an Apple Music-style floating bottom navigation bar, native haptic feedback, and an intelligent responsive grid that reduces text density to prioritize poster art on small screens.
+
+<div align="center">
+  <img src="./assets/screenshots/mobile_ui.png" width="30%" alt="Mobile Dashboard" />
+  <img src="./assets/screenshots/mobile_player.png" width="30%" alt="Mobile Player" />
+</div>
+
+---
+
 ## Recent Implementations & Fixes
 
 ### Database Integration & Persistent Storage
@@ -184,33 +194,24 @@ flowchart TB
     subgraph InternalAPI["Next.js Serverless API (App Router)"]
         AuthRoute["/api/auth (PBKDF2 & OTP)"]
         MediaRoute["/api/movies & /api/tv"]
-        FallbackStore["Static Offline Catalog Cache"]
-    end
-
-    subgraph BackendAPI["Dedicated REST API (Express 5)"]
-        ExpressRouter["Express 5 Router (Port 5000)"]
-        JWT["JWT Auth & Bcrypt/PBKDF2"]
-        MongoStore["MongoDB / In-Memory Store"]
+        PrismaORM["Prisma ORM (Data Access Layer)"]
     end
 
     subgraph ExternalServices["External Services"]
         TMDB["TMDB API v3 (Free Metadata & Posters)"]
         Gmail["Gmail SMTP (OTP Verification)"]
         StreamServers["Multi-Mirror Embed Providers"]
+        NeonDB["Neon PostgreSQL Database"]
     end
 
     Client -->|WebSocket Signaling| SocketIO
     SocketIO --> SDP
     Client -->|P2P Media & Data Channels| Client
     Client -->|Internal Fetch| InternalAPI
-    Client -->|Optional REST Call| BackendAPI
 
     InternalAPI -->|Free Metadata Queries| TMDB
-    InternalAPI -->|Offline Fallback| FallbackStore
     InternalAPI -->|Verification OTP| Gmail
-
-    BackendAPI --> MongoStore
-    BackendAPI --> TMDB
+    InternalAPI -->|Prisma Queries| NeonDB
 
     Player -->|Embed Request + Ad Filters| StreamServers
 ```
