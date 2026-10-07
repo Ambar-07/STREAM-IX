@@ -86,8 +86,8 @@ Custom authentication portal with PBKDF2 cryptographic hashing, live password st
 Engineered with mobile viewports in mind, featuring an Apple Music-style floating bottom navigation bar and native haptic feedback.
 
 <div align="center">
-  <img src="./assets/screenshots/screen9.png" width="30%" alt="Mobile Neo-Brutalist" />
-  <img src="./assets/screenshots/screen8.png" width="30%" alt="Mobile Cinematic" />
+  <img src="./assets/screenshots/screen9.png" height="500" alt="Mobile Neo-Brutalist" style="margin-right: 15px;" />
+  <img src="./assets/screenshots/screen8.png" height="500" alt="Mobile Cinematic" />
 </div>
 
 ---
