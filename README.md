@@ -389,9 +389,3 @@ All routes are implemented securely as Next.js serverless handlers (`frontend/ap
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-
