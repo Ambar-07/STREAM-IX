@@ -385,7 +385,7 @@ All routes are implemented securely as Next.js serverless handlers (`frontend/ap
 
 - **Frontend**: Deployable to [Vercel](https://vercel.com) or any Node.js container host.
 - **Signaling Server**: Deployable to any Node.js container or PaaS with WebSocket support enabled.
-- **Backend API**: Deployable to any Node.js serverless or container environment..
+- **Backend API**: Deployable to any Node.js serverless or container environment.
 
 ---
 
