@@ -33,7 +33,7 @@
 ### Why STREAMIX?
 - **Plex & Home Server Friendly**: Designed to run seamlessly atop a personal home server, homelab, or NAS. Connects your media libraries to an ultra-responsive, mobile-optimized frontend.
 - **Free Cinema Metadata via TMDB**: All media artwork, backdrops, trailers, overviews, ratings, and cast directories are fetched on demand from **The Movie Database (TMDB) free public API**.
-- **Offline Catalog Resilience**: Includes a built-in static catalog and caching layer, enabling complete offline browsing without requiring an active external API connection.
+- **Offline Catalog Resilience**: Includes a built-in static catalog and caching layer, enabling complete offline browsing without requiring an active external API connection .
 - **Decoupled Architecture**: Can operate as an autonomous, zero-config serverless web app on Vercel, or be deployed alongside its Express 5 REST service and WebRTC Socket.io signaling server.
 
 ### Recent Updates & Fixes
